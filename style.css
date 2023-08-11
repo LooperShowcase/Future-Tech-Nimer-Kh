@@ -19,10 +19,11 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  margin-right: 30%;
+  left: 50%;
   transform: translateX(-50%);
+  width: 80%; /* Adjust the width as needed */
 }
 
 h1 {
@@ -62,6 +63,8 @@ h1 {
   border-top: 1px solid #dddddd;
   margin-top: 20px;
   padding-top: 20px;
+  color: white;
+  background-color: black;
 }
 
 /* Style for chat messages (you can customize this further) */
