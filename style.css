@@ -1,0 +1,92 @@
+/* style.css */
+
+html {
+  min-height: 190%;
+  background-image: url("https://64.media.tumblr.com/64d1350b6c8b413d723a49915204028f/f9dbc988ea7f3a98-1e/s540x810/b0d2d922c29082c5dd446985b83e86aafc64b6b0.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container {
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/307c21f9-99cb-4088-b4ed-5c65cb4dcf94/dfywhdx-ee1977da-3f03-4c4e-8d69-f682449a546a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMwN2MyMWY5LTk5Y2ItNDA4OC1iNGVkLTVjNjVjYjRkY2Y5NFwvZGZ5d2hkeC1lZTE5NzdkYS0zZjAzLTRjNGUtOGQ2OS1mNjgyNDQ5YTU0NmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VaWkVbx5bMmvJgKg8CyFFkk-JJwTLAxGqhc-B6DoZgs");
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: gold;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  margin-right: 30%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+#input-text {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#search-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+}
+
+#chat-container {
+  border-top: 1px solid #dddddd;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* Style for chat messages (you can customize this further) */
+.chat-message {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for audio button */
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+#title {
+  color: rgb(234, 77, 10);
+}
